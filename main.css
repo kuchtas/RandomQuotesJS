@@ -1,0 +1,47 @@
+body{
+    background-color: moccasin;
+}
+
+#box{
+    background-color: peru; 
+    padding: 200px 400px 200px 400px;
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -400px;
+    border-radius: 1cm;
+}
+
+body #box .quoteText{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 1%;
+    right: 1%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 28px;
+}
+
+body #box .authorText{
+    position: absolute;
+    text-align: start;
+    top: 60%;
+    left: 65%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+body #box button{
+    position: absolute;
+    top: 85%;
+    left: 336px; /* 400px - 2*32px */
+    background-color: goldenrod;
+    padding: 15px 32px;
+    outline: none;
+    border-radius: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
